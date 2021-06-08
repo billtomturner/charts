@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 2.5.191
 description: Make documentation a joy to write using Wiki.js's beautiful and intuitive interface!
 name: wikijs
-version: 4.4.1
+version: 4.5.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - wiki
@@ -17,5 +17,5 @@ maintainers:
   email: rolf@berkenbosch.nl
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

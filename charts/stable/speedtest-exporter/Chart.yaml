@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: v3.1
 description: Speedtest Exporter made in python using the official speedtest bin
 name: speedtest-exporter
-version: 1.1.0
+version: 1.2.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - speedtest-exporter
@@ -15,5 +15,5 @@ maintainers:
   email: devin.kray@gmail.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

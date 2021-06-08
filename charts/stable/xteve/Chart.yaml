@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: v2.2.0.200
 description: M3U Proxy for Plex DVR and Emby Live TV.
 name: xteve
-version: 6.4.0
+version: 6.5.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - xteve
@@ -19,5 +19,5 @@ maintainers:
   email: jeff@billimek.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

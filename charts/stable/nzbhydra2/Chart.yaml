@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: v3.14.0
 description: Usenet meta search
 name: nzbhydra2
-version: 8.1.0
+version: 8.2.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - nzbhydra2
@@ -17,5 +17,5 @@ maintainers:
   email: jeff@billimek.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

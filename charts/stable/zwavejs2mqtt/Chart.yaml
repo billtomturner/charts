@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 3.0.3
 description: Fully configurable Zwave to MQTT Gateway and Control Panel
 name: zwavejs2mqtt
-version: 3.5.0
+version: 3.6.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - zwave
@@ -18,5 +18,5 @@ maintainers:
   email: jeff@billimek.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

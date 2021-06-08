@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: v3.0.6.1196
 description: Smart PVR for newsgroup and bittorrent users
 name: sonarr
-version: 11.1.0
+version: 11.2.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - sonarr
@@ -18,5 +18,5 @@ maintainers:
   email: jeff@billimek.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

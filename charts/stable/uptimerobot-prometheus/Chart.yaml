@@ -2,7 +2,7 @@ apiVersion: v2
 name: uptimerobot-prometheus
 description: Prometheus Exporter for the official uptimerobot CLI
 type: application
-version: 3.0.0
+version: 3.1.0
 appVersion: 0.0.1
 keywords:
   - uptimerobot
@@ -18,5 +18,5 @@ maintainers:
     email: jeff@billimek.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
-    version: 2.5.0
+    repository: https://billtomturner.github.io/library-charts/
+    version: 3.0.0

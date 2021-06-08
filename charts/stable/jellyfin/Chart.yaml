@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 10.7.0
 description: Jellyfin is a Free Software Media System
 name: jellyfin
-version: 7.4.0
+version: 7.5.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - jellyfin
@@ -18,5 +18,5 @@ maintainers:
   email: jeff@billimek.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

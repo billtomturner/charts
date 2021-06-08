@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: v4.9.0
 description: DSMR-protocol reader, telegram data storage and energy consumption visualizer.
 name: dsmr-reader
-version: 3.5.1
+version: 3.6.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - dsmr-reader
@@ -17,8 +17,8 @@ maintainers:
   email: jeff@billimek.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0
 - name: postgresql
   version: 10.4.8
   repository: https://charts.bitnami.com/bitnami

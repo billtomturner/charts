@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 1.1.0
 description: Cert-Manager Webhook for DNSMadeEasy
 name: dnsmadeeasy-webhook
-version: 2.5.0
+version: 2.6.0
 keywords:
 - cert-manager
 - dnsmadeeasy
@@ -17,5 +17,5 @@ maintainers:
   email: git@angelnu.com
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0

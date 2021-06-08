@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: latest
 description: Valheim dedicated gameserver with automatic update and world backup support
 name: valheim
-version: 2.4.0
+version: 2.5.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - valheim
@@ -16,5 +16,5 @@ maintainers:
   email: owner@russellhall.co.uk
 dependencies:
 - name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 2.5.0
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0
