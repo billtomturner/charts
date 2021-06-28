@@ -1,0 +1,25 @@
+apiVersion: v2
+appVersion: v2.1.2
+description: Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+name: ubooquity
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+- ubooquity
+- ebooks
+- comics
+- mylar
+- usenet
+- torrent
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/ubooquity
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-logo.png
+sources:
+- https://vaemendis.net/ubooquity/
+- https://github.com/linuxserver/docker-ubooquity
+maintainers:
+- name: billtomturner
+  email: billtomturner@protonmail.com
+dependencies:
+- name: common
+  repository: https://billtomturner.github.io/library-charts/
+  version: 3.0.0
