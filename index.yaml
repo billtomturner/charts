@@ -53627,6 +53627,38 @@ entries:
     urls:
     - https://github.com/k8s-at-home/charts/releases/download/tvheadend-1.0.0/tvheadend-1.0.0.tgz
     version: 1.0.0
+  ubooquity:
+  - apiVersion: v2
+    appVersion: v2.1.2
+    created: "2021-06-29T03:49:05.68932778Z"
+    dependencies:
+    - name: common
+      repository: https://billtomturner.github.io/library-charts/
+      version: 3.0.0
+    description: Ubooquity is a free, lightweight and easy-to-use home server for
+      your comics and ebooks. Use it to access your files from anywhere, with a tablet,
+      an e-reader, a phone or a computer.
+    digest: de47c5ba1b0f98b754cbea245a9f52a176fbd0e90ef23c42527c807025d91304
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/ubooquity
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-logo.png
+    keywords:
+    - ubooquity
+    - ebooks
+    - comics
+    - mylar
+    - usenet
+    - torrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: billtomturner@protonmail.com
+      name: billtomturner
+    name: ubooquity
+    sources:
+    - https://vaemendis.net/ubooquity/
+    - https://github.com/linuxserver/docker-ubooquity
+    urls:
+    - https://github.com/billtomturner/charts/releases/download/ubooquity-1.0.0/ubooquity-1.0.0.tgz
+    version: 1.0.0
   unifi:
   - apiVersion: v2
     appVersion: 6.0.45
@@ -60866,4 +60898,4 @@ entries:
     urls:
     - https://github.com/k8s-at-home/charts/releases/download/zwavejs2mqtt-1.0.0/zwavejs2mqtt-1.0.0.tgz
     version: 1.0.0
-generated: "2021-05-23T09:05:48.181316423Z"
+generated: "2021-06-29T03:49:05.70124653Z"
